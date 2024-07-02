@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378461621261",
+    "project_id": "seasalon-210c2",
+    "storage_bucket": "seasalon-210c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378461621261:android:bb4432fcb1578c9e131944",
+        "android_client_info": {
+          "package_name": "com.dicoding.seasalon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQNdkzoeg1yzaA712P9Zin_VPm3rM78G8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

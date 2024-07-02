@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    android:fitsSystemWindows="true"
+    android:id="@+id/main"
+    tools:context=".ui.authorization.login.LoginActivity" >
+
+    <LinearLayout
+        android:paddingBottom="30dp"
+        android:id="@+id/content_container"
+        android:background="@drawable/bg_full_rounded_purple"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_title"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:lineHeight="55dp"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_description"
+            android:textSize="12sp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/tv_email"
+            style="@style/text_title_auth"
+            android:text="@string/email" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailEditTextLayout"
+            style="@style/edit_layout_white">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:hint="@string/hint_email"
+                android:textColorHint="@color/white"
+                android:inputType="textEmailAddress"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tv_password"
+            style="@style/text_title_auth"
+            android:text="@string/password" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordEditTextLayout"
+            style="@style/edit_layout_white"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/white" >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:hint="@string/hint_password"
+                android:textColorHint="@color/white"
+                android:inputType="textPassword"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.dicoding.seasalon.ui.customview.MyWhiteButton
+            android:id="@+id/btn_log_in"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:paddingVertical="15dp" />
+
+    </LinearLayout>
+
+</ScrollView>

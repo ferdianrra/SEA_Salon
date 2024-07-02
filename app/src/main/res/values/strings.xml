@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">SEA Salon</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="name_app">SEA \nSalon</string>
+    <string name="slogan_app">Beauty and Elegance Redefined</string>
+    <string name="review_salon">Review Salon</string>
+    <string name="promo">Promo</string>
+    <string name="discount_title">Discount 10%</string>
+    <string name="discount_desc">Enjoy 10% Off Every Friday!</string>
+    <string name="services">Services</string>
+    <string name="haircuts_services">Haircuts and \nStyling</string>
+    <string name="manicure_services">Manicure \nand Pedicure</string>
+    <string name="facial_services">Facial \nTreatments</string>
+    <string name="voucher_discount">Voucher Discount</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="person_woman">Sekar</string>
+    <string name="person_man">Thomas</string>
+    <string name="review">Review</string>
+    <string name="my_rating">5</string>
+    <string name="my_name">ferdianrra</string>
+    <string name="my_comment">A luxurious salon that offers a wide range of beauty and body treatments. Known for its elegance and exceptional service quality, this salon provides an unforgettable experience for every customer.</string>
+    <string name="title_service">Haircuts and Styling</string>
+    <string name="desc_services">Experience a transformative journey with the latest hair trends tailored to your personality, from classic cuts to modern elegance, all crafted by our professional stylists</string>
+    <string name="time_services">09:00-21:00</string>
+    <string name="name">Name</string>
+    <string name="hint_name">Enter name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hint_phone_number">Enter phone number</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="hint_date_and_time">Choose a date and time</string>
+    <string name="feedback_title">Feedback Form</string>
+    <string name="rating">Rating</string>
+    <string name="hint_rating">Enter a rating on a scale of 1-5</string>
+    <string name="comment">Comment</string>
+    <string name="hint_comment">Enter Comment</string>
+    <string name="book_now">Book Now</string>
+    <string name="submit">Submit</string>
+    <string name="error_empty">Field cannot be empty</string>
+    <string name="feedback_complete">Thank You for Your Feedback</string>
+    <string name="welcome_description">Discover a world of beauty and elegance. Log in to SEA Salon to access exclusive services and personalized beauty treatments.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="register">register</string>
+    <string name="login_title">Let’s Sign\nYou In</string>
+    <string name="login_description">Welcome to SEA Salon. Please log in to access your account and explore our luxurious beauty services.</string>
+    <string name="register_title">Register!</string>
+    <string name="register_description">Create your account to unlock exclusive access to our premium salon services. Join now to start your journey towards beauty and relaxation with SEA Salon</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="hint_email">Enter email</string>
+    <string name="hint_password">Enter password</string>
+    <string name="sample_time">15:00 - 17:00</string>
+    <string name="sample_type">Manicure and Pedicure</string>
+    <string name="sample_date">20 June 2024</string>
+    <string name="invalid_time_message">Please select a time between %1$s</string>
+    <string name="sample_name">Ahmad</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="error_passwords_not_match">Passwords do not match.</string>
+    <string name="log_out">Log Out</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="activity_nothing">Does not have any activities</string>
+    <string name="activity">Activity</string>
+    <string name="thomas_number">08123456789</string>
+    <string name="sekar_number">08164829372</string>
+
+    <string-array name="rating">
+        <item>5.0</item>
+        <item>4.8</item>
+        <item>4.5</item>
+    </string-array>
+
+    <string-array name="username">
+        <item>Rafi</item>
+        <item>Andi</item>
+        <item>Syifa</item>
+    </string-array>
+
+    <string-array name="comment">
+        <item>The service at SEA Salon was exceptional, and the staff were incredibly friendly and professional.</item>
+        <item>I am extremely satisfied with my haircut and styling; the stylist really understood what I wanted.</item>
+        <item>The salon\'s ambiance is relaxing and elegant, making it a perfect place to unwind and get pampered.</item>
+    </string-array>
+
+    <array name="cover_services">
+        <item>@drawable/ic_haircuts</item>
+        <item>@drawable/ic_manicure</item>
+        <item>@drawable/ic_facial</item>
+    </array>
+
+    <string-array name="title_services">
+        <item>Haircuts and Styling</item>
+        <item>Manicure and Pedicure</item>
+        <item>Facial Treatments</item>
+    </string-array>
+
+    <string-array name="desc_services">
+        <item>Experience a transformative journey with the latest hair trends tailored to your personality, from classic cuts to modern elegance, all crafted by our professional stylists</item>
+        <item>Indulge in luxurious nail care with our professional manicures and pedicures, designed to beautify your hands and feet with precision and style</item>
+        <item>Rejuvenate your skin with our expert facial treatments, tailored to enhance your natural radiance and promote overall skin health.</item>
+    </string-array>
+
+</resources>
