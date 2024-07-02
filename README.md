@@ -3,7 +3,7 @@ SEA Salon merupakan aplikasi yang dibuat untuk menyelesaikan tugas dalam seleksi
 
 ## Aplikasi
 Proyek ini menghasilkan aplikasi android dengan format APK yang  dapat diunduh melalui link berikut:
-[Unduh APK](https://drive.google.com/file/d/1CeAPvrwcOSsBKPqMAuJGjZ0VE5nuDiK9/view?usp=drive_link)
+[Unduh APK](https://drive.google.com/file/d/1CeAPvrwcOSsBKPqMAuJGjZ0VE5nuDiK9/view?usp=drive_link) \n
 Panduan dalam penggunaan aplikasi:
 [Panduan Aplikasi](https://docs.google.com/document/d/1faKE645igE5AVzh9DdHhVAq_la7ZbYb46GbehpMwbro/edit?usp=sharing)
 
