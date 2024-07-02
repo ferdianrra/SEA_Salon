@@ -12,4 +12,8 @@ Proyek ini menghasilkan aplikasi android dengan format APK yang  dapat diunduh m
 4. Arahkan ke direktori proyek yang telah di-clone.
 5. Tunggu hingga Android Studio menyelesaikan sinkronisasi proyek dengan Gradle.
 
+## Konfigurasi Firebase
+Aplikasi ini menggunakan firebase sebagai databasenya yang digunakan pada fitur authorization, ulasan salon, dan riwayat pemesanan.
+Firebase sudah dikonfigurasi dalam proyek ini dan file `google-services.json` sudah termasuk. Tidak ada langkah tambahan yang diperlukan untuk konfigurasi Firebase.
+
 
