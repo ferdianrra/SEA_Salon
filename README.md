@@ -2,9 +2,9 @@
 SEA Salon merupakan aplikasi yang dibuat untuk menyelesaikan tugas dalam seleksi Software Engineering Academy yang diadakan oleh Compfest 16
 
 ## Aplikasi
-Proyek ini menghasilkan aplikasi android dengan format APK yang  dapat diunduh melalui link berikut:  
+Proyek ini menghasilkan aplikasi android dengan format APK yang  dapat diunduh melalui link berikut:
 [Unduh APK](https://drive.google.com/file/d/1CeAPvrwcOSsBKPqMAuJGjZ0VE5nuDiK9/view?usp=drive_link)  
-Panduan dalam penggunaan aplikasi:  
+Panduan dalam penggunaan aplikasi:
 [Panduan Aplikasi](https://docs.google.com/document/d/1faKE645igE5AVzh9DdHhVAq_la7ZbYb46GbehpMwbro/edit?usp=sharing)
 
 ## Instalasi Proyek: 
