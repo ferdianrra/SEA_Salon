@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ui.formfeedback.FeedbackActivity">
+
+    <LinearLayout
+        android:id="@+id/container_title"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/bg_blue_container" >
+        <TextView
+            android:id="@+id/tv_feedback_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="20dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/bg_bottom_corner_rounded_white" >
+
+        <TextView
+            android:id="@+id/name_label_feedback"
+            style="@style/text_title"
+            android:text="@string/name" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/nameEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_name_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:hint="@string/hint_name"
+                android:inputType="textPersonName"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/rating_feedback_label"
+            style="@style/text_title"
+            android:text="@string/rating" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/phoneEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_rating_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:hint="@string/hint_rating"
+                android:inputType="numberDecimal"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/comment_feedback_label"
+            style="@style/text_title"
+            android:text="@string/comment" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/dateEditTextLayout"
+            style="@style/edit_layout">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_comment_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="14sp"
+                android:hint="@string/hint_comment"
+                android:inputType="textMultiLine"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.dicoding.seasalon.ui.customview.MyBlueButton
+            android:id="@+id/btn_submit"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="10dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+</LinearLayout>
